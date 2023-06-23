@@ -1,0 +1,80 @@
+const TransactionsData = [
+    {
+        transactionID: 307,
+        CompanyName: 'შპს ტოიოტა ცენტრი თბილისი',
+        City: 'ხაშური',
+        Amount: 43810,
+        Date: new Date(2021, 4, 11), // Note: JavaScript months are zero-based (0 - January, 1 - February, etc.)
+    },
+    {
+        transactionID: 338,
+        CompanyName: 'შპს ტავ ურბან საქართველო',
+        City: 'ზუგდიდი',
+        Amount: 21545,
+        Date: new Date(2020, 9, 23),
+    },
+    {
+        transactionID: 467,
+        CompanyName: 'შპს ეი-ბი-სი ფარმაცია',
+        City: 'კასპი',
+        Amount: 48870,
+        Date: new Date(2020, 2, 23),
+    },
+    {
+        transactionID: 593,
+        CompanyName: 'სს ვისოლ პეტროლიუმ ჯორჯია',
+        City: 'ქობულეთი',
+        Amount: 13320,
+        Date: new Date(2022, 0, 9),
+    },
+    {
+        transactionID: 656,
+        CompanyName: 'შპს შარმ ტრეიდინგი',
+        City: 'ქობულეთი',
+        Amount: 1225,
+        Date: new Date(2020, 4, 20),
+    },
+    {
+        transactionID: 750,
+        CompanyName: 'სს საქართველოს სახელმწიფო ელექტროსისტემა',
+        City: 'კასპი',
+        Amount: 5935,
+        Date: new Date(2022, 5, 23),
+    },
+    {
+        transactionID: 770,
+        CompanyName: 'სს GPS',
+        City: 'ოზურგეთი',
+        Amount: 33080,
+        Date: new Date(2020, 3, 16),
+    },
+    {
+        transactionID: 962,
+        CompanyName: 'შპს GDG',
+        City: 'წყალტუბო',
+        Amount: 4820,
+        Date: new Date(2022, 0, 20),
+    },
+    {
+        transactionID: 1255,
+        CompanyName: 'შპს სოკარ ჯორჯია გაზი',
+        City: 'ხაშური',
+        Amount: 31075,
+        Date: new Date(2023, 3, 25),
+    },
+    {
+        transactionID: 1703,
+        CompanyName: 'სს ჯი პი სი',
+        City: 'გორი',
+        Amount: 35615,
+        Date: new Date(2021, 11, 27),
+    },
+    {
+        transactionID: 1936,
+        CompanyName: 'შპს დიპლომატ ჯორჯია',
+        City: 'სამტრედია',
+        Amount: 4740,
+        Date: new Date(2020, 9, 13),
+    },
+];
+export default TransactionsData
